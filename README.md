@@ -1,6 +1,6 @@
 ## Machine-Learning-Exoplanet-Exploration
 
-![exoplanets](Images/exoplanets.jpgg)
+![exoplanets](Images/exoplanets.jpg)
 
 Nasa Kepler space telescope had a mission to find palnets that were outside of solar system. The data was used from [Exoplanet Data Source](https://www.kaggle.com/nasa/kepler-exoplanet-search-results).
 
