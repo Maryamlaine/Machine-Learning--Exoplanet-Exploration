@@ -59,8 +59,7 @@ Testing Data Score:
 Strongest Features: 
 
 * Deep Learning
-Loss: 0.6991759857013934
-Accuracy: 0.9004524946212769
+
 
 The Deep Learning model has a high Loss value of 0.33, with Accuracy is 0.87.
 
