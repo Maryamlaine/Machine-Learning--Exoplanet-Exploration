@@ -5,14 +5,14 @@
 Nasa Kepler space telescope had a mission to find palnets that were outside of solar system. The data was used from [Exoplanet Data Source](https://www.kaggle.com/nasa/kepler-exoplanet-search-results).
 
 ### Variables of Interests (explanatory variables)
-koi_period - Orbital Period (days)
-koi_impact - Impact Parameter (dTransit Duration (hours)
-koi_duration - distance between the center of the stellar disc and the center of the planet disc)
-koi_depth - Transit Depth (parts per million)
-koi_prad - Planetary Radius (Earth radii) - koi_prad
-koi_teq - Equilibrium Temperature (Kelvin)
-koi_insol - Insolation Flux [Earth flux]
-koi_model_snr - Transit Signal-to-Noise
+* koi_period - Orbital Period (days)
+* koi_impact - Impact Parameter (dTransit Duration (hours)
+* koi_duration - distance between the center of the stellar disc and the center of the planet disc)
+* koi_depth - Transit Depth (parts per million)
+* koi_prad - Planetary Radius (Earth radii) - koi_prad
+* koi_teq - Equilibrium Temperature (Kelvin)
+* koi_insol - Insolation Flux [Earth flux]
+* koi_model_snr - Transit Signal-to-Noise
 
 ### Y Variable (catergorical)
 koi_disposition - Cnadidate, Confirmed, False Positive
