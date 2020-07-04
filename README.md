@@ -60,4 +60,4 @@ Strongest Features:
 
 * Deep Learning  
 The Deep Learning model has a high Loss value of 0.38 and Accuracy of 0.88. Random Forest Classifier had the best   
-score in comparison with Decision tree, SVM and Neural Network.  
+score in comparison with Decision tree, SVM and Neural Network. Also, it is intersting to mention that SVM model predicts False Positives more reliably since we have more false postive observations than confirmed exoplanets cases.  
