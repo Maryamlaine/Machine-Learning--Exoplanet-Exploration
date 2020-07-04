@@ -43,15 +43,15 @@ koi_disposition - Cnadidate, Confirmed, False Positive
 
 * DecisionTreeClassifier
 
-Training Data Score: 0.66
-Testing Data Score: 0.66
-Strongest Features: koi_depth 0.29, koi_insol 0.24 and koi_prad 0.16
+Training Data Score: 0.91
+Testing Data Score: 0.878
+Strongest Features: koi_prad 0.36, koi_model_snr 0.27 and koi_teq 0.18
 
 * RandomForestClassifier
 
-Training Data Score: 
-Testing Data Score: 
-Strongest Features: koi_insol, koi_depth, koi_duration 
+Training Data Score:0.98 
+Testing Data Score: 0.901
+Strongest Features: koi_model_snr 0.22, koi_prad 0.20, koi_teq 0.13
 
 * SVM 
 Training Data Score: 
@@ -59,7 +59,5 @@ Testing Data Score:
 Strongest Features: 
 
 * Deep Learning
-
-
-The Deep Learning model has a high Loss value of 0.33, with Accuracy is 0.87.
-
+The Deep Learning model has a high Loss value of 0.38 and Accuracy of 0.88. Random Forest Classifier had the best 
+score in comparison with Decision tree, SVM and Neural Network.
