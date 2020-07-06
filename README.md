@@ -13,6 +13,7 @@ Nasa Kepler space telescope had a mission to find palnets that were outside of s
 * koi_teq - Equilibrium Temperature (Kelvin)
 * koi_insol - Insolation Flux [Earth flux]
 * koi_model_snr - Transit Signal-to-Noise
+* koi_slogg - Surface gravity
 
 ### Y Variable (catergorical)
 koi_disposition - Canadidate, Confirmed, False Positive
@@ -42,19 +43,20 @@ koi_disposition - Canadidate, Confirmed, False Positive
 * DecisionTreeClassifier
 
 Training Data Score: 0.91  
-Testing Data Score: 0.878  
-Strongest Features: koi_prad 0.36, koi_model_snr 0.27, and koi_teq 0.18  
+Testing Data Score: 0.894 
+Strongest Features: koi_prad 0.35, koi_model_snr 0.27, and koi_teq 0.18  
 
 * RandomForestClassifier
 
 Training Data Score: 0.98   
 Testing Data Score: 0.901  
-Strongest Features: koi_model_snr 0.22, koi_prad 0.20, koi_teq 0.13  
+Strongest Features: koi_model_snr 0.20 koi_prad 0.18, koi_teq 0.13  
 
 * SVM 
-Training Data Score:   
-Testing Data Score:   
-Strongest Features:   
+Training Data Score: 0.66061  
+Testing Data Score: 0.66069  
+
+![svm](Images/svm.jpg)
 
 * Deep Learning  
 The Deep Learning model has a high Loss value of 0.38 and Accuracy of 0.88. Random Forest Classifier had the best score in comparison with Decision tree, SVM and Neural Network. Also, it is interesting to mention that SVM model predicts False Positives more reliably since we have more false positive observations than confirmed exoplanets cases.  
