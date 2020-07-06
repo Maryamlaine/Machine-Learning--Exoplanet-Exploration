@@ -59,4 +59,4 @@ Testing Data Score: 0.66069
 ![svm](Images/svm.jpg)
 
 * Deep Learning  
-The Deep Learning model has a high Loss value of 0.38 and Accuracy of 0.88. Random Forest Classifier had the best score in comparison with Decision tree, SVM and Neural Network. Also, it is interesting to mention that SVM model predicts False Positives more reliably since we have more false positive observations than confirmed exoplanets cases.  
+The Deep Learning model has a high Loss value of 0.43 and Accuracy of 0.904. Random Forest Classifier had the best score in comparison with Decision tree, SVM and Neural Network. Also, it is interesting to mention that SVM model predicts False Positives more reliably since we have more false positive observations than confirmed exoplanets cases.  
