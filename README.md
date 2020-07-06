@@ -31,11 +31,10 @@ koi_disposition - Canadidate, Confirmed, False Positive
 
  * Split the data in train and test
  * Create the model
- * Scale values to using standard deviation (StandardScaler)
+ * Scale values to using standard deviation (MinMaxScaler)
  * Fit the model (LogisticRegression, DecisionTreeClassifier, RandomForestClassifier)
  * Make prediction
  * Tune model parameters (using GridSearchCV)
- * Get R-scores to show effectiveness
  * Save models
 
 ## Conclusion
